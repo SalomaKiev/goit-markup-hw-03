@@ -49,7 +49,6 @@ body {
 
 .menu-links {
     margin-right: 40px;
-    margin-right: 40px;
 }
 
 .email {
@@ -70,19 +69,22 @@ body {
     }
 
 .hero {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: 0 auto 48px auto;
+    width: 500px;
+
 }
 
 .main-page{
     background-color: #2E2F42;
     text-align: center;
-    padding: 192px 0;
+    padding-top: 192px;
+    padding-bottom: 192px
 }
 
 .main-button{
@@ -98,8 +100,22 @@ body {
     cursor: pointer;
 }
 
+.description {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .hiden {
     display: none;
+}
+
+.main-back {
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .button-all {
@@ -117,6 +133,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    margin-left: 420px;
 }
 
 .other-button {
@@ -136,6 +153,7 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
+    margin-left: 24px;
 }
 
 .descr-list {
@@ -148,6 +166,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-left: 24px;
+}
+
+.box-picture {
+    border: 0.5px solid #F4F4FD;
+    margin-bottom: 40px;
     margin-left: auto;
 }
 
@@ -158,6 +182,14 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     margin-left: auto;
+    width: 264px;
+    height: 72px;
+    margin-left: 24px;
+}
+
+.about-work {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .about{
@@ -182,6 +214,11 @@ body {
     display: flex;
 }
 
+.picture-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .about-team {
     font-size: 36px;
     line-height: 1.1;
@@ -193,7 +230,8 @@ body {
 
 .team {
     background-color: #F4F4FD;
-    padding: 0 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .people-back {
@@ -250,7 +288,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-bottom: 16px;
+    margin-left: 40px;
 }
 
 .studio-foot {
@@ -274,8 +312,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    margin-top: 16px;
     width: 264px;
+    margin-left: 40px;
 }
 
 .name-picture {
