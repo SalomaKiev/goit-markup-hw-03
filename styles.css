@@ -2,6 +2,25 @@ body {
     font-family: 'Roboto';
 }
 
+
+.container {
+    width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.web-studio {
+    margin-left: 156px;
+    margin-right: 76px;
+}
+
 .web {
     font-family: 'Raleway';
     font-weight: 800;
@@ -28,6 +47,20 @@ body {
     text-decoration: none;
 }
 
+.menu-links {
+    margin-right: 40px;
+    margin-right: 40px;
+}
+
+.email {
+    margin-left: auto;
+}
+
+.tel {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .adress {
     font-weight: 400;
     font-size: 16px;
@@ -43,10 +76,13 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: 0 auto 48px auto;
 }
 
 .main-page{
     background-color: #2E2F42;
+    text-align: center;
+    padding: 192px 0;
 }
 
 .main-button{
@@ -60,6 +96,10 @@ body {
     color: #FFFFFF;
     padding: 16px 32px;
     cursor: pointer;
+}
+
+.hiden {
+    display: none;
 }
 
 .button-all {
@@ -98,12 +138,17 @@ body {
     cursor: pointer;
 }
 
+.descr-list {
+    display: flex;
+}
+
 .descr {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-left: auto;
 }
 
 .descr-item {
@@ -112,6 +157,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-left: auto;
 }
 
 .about{
@@ -121,6 +167,19 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+}
+
+.img-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.img-about {
+    margin-left: 24px;
+}
+
+.people-list {
+    display: flex;
 }
 
 .about-team {
@@ -134,12 +193,20 @@ body {
 
 .team {
     background-color: #F4F4FD;
+    padding: 0 15px;
 }
 
 .people-back {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+}
+
+.people-background {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 24px;
 }
 
 .people-name {
@@ -160,8 +227,15 @@ body {
     color: #434455;
 }
 
+.container-foot {
+    width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
 .back-foot {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .web-foot {
@@ -176,6 +250,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-bottom: 16px;
 }
 
 .studio-foot {
@@ -199,6 +274,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+    margin-top: 16px;
+    width: 264px;
 }
 
 .name-picture {
