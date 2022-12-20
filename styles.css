@@ -10,15 +10,25 @@ body {
     display: flex;
 }
 
-.nav-links {
+header .container {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 
-.web-studio {
-    margin-left: 156px;
-    margin-right: 76px;
+nav {
+    display: flex;
+}
+
+.nav-links {
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+
+
+.contacts {
+    margin-left: auto;
+    display: flex;
 }
 
 .web {
@@ -48,16 +58,15 @@ body {
 }
 
 .menu-links {
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .email {
-    margin-left: auto;
+
 }
 
 .tel {
     margin-left: 40px;
-    margin-right: 40px;
 }
 
 .adress {
@@ -84,7 +93,7 @@ body {
     background-color: #2E2F42;
     text-align: center;
     padding-top: 192px;
-    padding-bottom: 192px
+    padding-bottom: 120px
 }
 
 .main-button{
@@ -107,10 +116,6 @@ body {
 
 .hiden {
     display: none;
-}
-
-.main-back {
-    
 }
 
 .buttons {
@@ -158,6 +163,7 @@ body {
 
 .descr-list {
     display: flex;
+
 }
 
 .descr {
@@ -166,7 +172,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-left: 24px;
 }
 
 .box-picture {
@@ -184,13 +189,21 @@ body {
     margin-left: auto;
     width: 264px;
     height: 72px;
-    margin-left: 24px;
+}
+
+.container-work {
+    width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .about-work {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
+
 
 .about{
     font-size: 36px;
@@ -199,11 +212,11 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    padding-bottom: 72px;
 }
 
 .img-list {
     display: flex;
-    margin-left: auto;
 }
 
 .img-about {
@@ -212,6 +225,11 @@ body {
 
 .people-list {
     display: flex;
+}
+
+.box-team {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .picture-list {
@@ -226,6 +244,9 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 72px;
 }
 
 .team {
@@ -289,6 +310,7 @@ body {
     order: 0;
     flex-grow: 0;
     margin-left: 40px;
+    text-decoration: none;
 }
 
 .studio-foot {
@@ -306,7 +328,6 @@ body {
 }
 
 .descr-foot {
-    position: absolute;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
