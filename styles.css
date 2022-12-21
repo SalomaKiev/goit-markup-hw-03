@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto';
 }
 
-
 .container {
     width: 1158px; 
     padding: 0 15px; 
@@ -59,10 +58,6 @@ nav {
 
 .menu-links {
     margin-left: 40px;
-}
-
-.email {
-
 }
 
 .tel {
@@ -163,7 +158,6 @@ nav {
 
 .descr-list {
     display: flex;
-
 }
 
 .descr {
@@ -191,19 +185,16 @@ nav {
     height: 72px;
 }
 
-.container-work {
+.about-work .container {
     width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-
 }
 
 .about-work {
     padding-bottom: 120px;
 }
-
 
 .about{
     font-size: 36px;
