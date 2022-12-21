@@ -6,7 +6,7 @@ body {
     width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
-    display: flex;
+
 }
 
 header .container {
@@ -133,7 +133,6 @@ nav {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    margin-left: 420px;
 }
 
 .other-button {
@@ -168,11 +167,6 @@ nav {
     color: #2E2F42;
 }
 
-.box-picture {
-    border: 0.5px solid #F4F4FD;
-    margin-bottom: 40px;
-    margin-left: auto;
-}
 
 .descr-item {
     font-weight: 400;
@@ -189,7 +183,7 @@ nav {
     width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
-    display: flex;
+
 }
 
 .about-work {
@@ -226,6 +220,19 @@ nav {
 .picture-list {
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    column-gap: 24px; 
+    row-gap: 48px;
+}
+
+img {
+    display: block;
+}
+
+.box-p {
+    border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .about-team {
@@ -286,6 +293,10 @@ nav {
 .back-foot {
     background-color: #2E2F42;
     padding: 100px 0;
+}
+
+.all-picture {
+    padding-bottom: 120px;
 }
 
 .web-foot {
